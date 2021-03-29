@@ -127,3 +127,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+story = """
+Okay, we understand you... You are not alone! If you are feeling %s REMEMBER that you can count with %s and the BMCC Counseling Center in either hard or happy moments. When your stress level is %s, REMEMBER that there are some things that you can do to feel better, such as meditate, listen to music or share with your friend.
+The school environment can be hard and affect our lives drastically. If you are having difficult to %s, don't hesitate to ask for help! REMEMBER that you are not alone and everyone faces problems. Besides that, if you feel %s in some circunstances, REMEMBER that you can %s.
+We understand that sometimes students have too much pressure and need to deal with personal and academic life. If you feel tired %s REMEMBER to review your schedule and organize it in a way that you can sleep at least 8 hours to preserve your physical and mental health.
+Sometimes people don't ask for help because they feel %s. REMEMBER that many people around you also need help and you can be the one to bring happiness to them. %s would be excellent ways to put it in practice.
+REMEMBER: you should not be ashamed to ask for help!"""
+
+print ("REMEMO GAME")
+print ("Hi! BMCC cares of your well being. How are you? Are things going well? In this game we want to know how you have been doing during this semester to help you! Keep in mind that your asnwers are anonymous. Please answer the next few questions and we will create memos made specially for you: ")
+a = input("Define your feelings in one word: ")
+b = input("If you need to tell a secret to someone. Who do you look for? (Type the name): ")
+c = input("How do you define your level of stress? (1-10)- 10 being the most stressful: ")
+d = input("Tell me the 2 hardest things that you found in college? (eg.: to make friends and midterms): ")
+e = input("Think about your most recent personal struggle. Which one of those three words would better define your feelings in that moment? (anxiety, discourgement or distress) Type one: ")
+f = input("Tell me 2 things that you really enjoy to do in your free time: ")
+g = input("How often do you feel tired? (always, often,sometimes): ")
+h = input("Why do you think some people don't like to ask for help? (eg.: ashamed, uncomfortable) Describe it in one word: ")
+i = input("Tell me two ways that we can help other people. (eg.: volunteering and donating): ")
+
+
+print (story % (a, b, c, d, e, f, g, h, i))
+
+bye = input("Thank you for playing REMEMO! I hope it was helpful and you understood what you can do to take care of your mental heath! Feel free to visit us in the Counseling Center.") 
